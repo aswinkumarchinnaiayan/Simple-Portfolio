@@ -1,0 +1,107 @@
+body{
+        font-family: "Poppins", serif;
+        font-weight: 400;
+        font-style: normal;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    margin: 30px;
+}
+.section-one{
+    background-color: black;
+    color: white;
+    padding: 30px;
+}
+.section-one__name{
+    font-size: 30px;
+}
+.section-one__role{
+    margin-top: 20px;
+    font-size: 20px;
+}
+.section-one__desc{
+    background-color: transparent;
+    color: white;
+    border: solid greenyellow 1px;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 15px;
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.section-one__desc:hover{
+    background-color: greenyellow;
+    color: black;
+}
+.section-one__name,.section-two,.section-three,.section-four,.section-five{
+    margin-top: 20px;
+    
+}
+.section-two__desc,.section-three__desc,.section-four__desc{
+    margin-top: 10px;
+}
+.section-three{
+    background-color: yellowgreen;
+    color: black;
+    border: solid greenyellow 1px;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 20px;
+    margin-top: 20px;
+    height: 300px;
+}
+.section-three__desc li,.section-four__desc li{
+    list-style: none;
+    margin-top: 10px;
+}
+.section-four{
+    background-color: yellowgreen;
+    color: black;
+    border: solid yellowgreen 1px;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 20px;
+    margin-top: 20px;
+    height: 300px;
+    vertical-align: top;
+}
+.section-five{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+.section-five__title a{
+    color: yellowgreen;
+    text-decoration: none;
+}
+.section-five__desc{
+    margin-top: 20px;
+}
+.contact-form{
+    margin-top: 20px;    
+}
+.contact-form__input,.contact-form__textarea,.contact-form__submit{
+    margin-top: 10px;
+}
+.contact-form__input{
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    border-bottom: solid black 1px;
+}
+.contact-form__textarea{
+    padding: 10px;
+    border-bottom: solid black 1px; 
+}  
+.contact-form__submit{
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    padding: 10px;
+    border: solid black 1px;
+    border-radius: 3px;
+}
